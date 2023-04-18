@@ -1,7 +1,7 @@
 <statement> ::= <variable_initialization>|<object_initialization>|<logical_operator>|
 
 #All variable initializations:
-<variable_initialization> ::= <int_definition> | <terminating_real_definition> | <non_terminating_real_definition> | <complex_defintion>
+<variable_initialization> ::= <int_definition> | <terminating_real_definition> | <non_terminating_real_definition> | <complex_defintion> | <character_definition> | <string_definition>
 
 <int_definition> ::= "leng" <valid_user_given_name> "=" <integer> 
 <integer> ::= "^(-{0,1}[0-9]+)$"
@@ -18,15 +18,16 @@
 <character_definition> ::= "sigil" <valid_user_given_name> "=" <character>
 <character> ::= "^`.{1}`$"
 
-
+<string_definition> ::= "inscript" <valid_user_given_name> "=" <string>
+<string> ::= "`.+`"
 
 <valid_user_given_name> ::= "\S+"
 
+#test output function prototype
+<std_output_fn> ::= "banner\(" <valid_output> "\)"
+<valid_output> ::= <valid_user_given_name> | <string> | <character> | <terminating_real> | <non_terminating_real> | <complex> | <integer>
 
-# not configured for regex
-# <arithmetic_operator> ::= "+" | "-" | "/" | "*" | "%"
-# variables:
-# inscription -strings
+
 #objects:
 # spell -method
 # tome -object
