@@ -1,6 +1,6 @@
 This is a mini description of the scope of the project!!!
 
-ENCHANT stands for Enhanced Natural Communication for Humans ANd Things.
+__ENCHANT__ stands for __E__ nhanced __N__ atural __C__ ommunication for __H__ umans __AN__ d __T__ hings.
 
 The programming language focuses on natural language processing (NLP) capabilities and is designed to run on small embedded systems without the need for large servers. This means that the language will be optimized for running on resource-constrained environments, such as IoT devices or other small embedded systems with limited processing power, memory, and storage.
 
