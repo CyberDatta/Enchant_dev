@@ -2,6 +2,8 @@ This is a mini description of the scope of the project!!!
 
 __ENCHANT__ stands for __E__ nhanced __N__ atural __C__ ommunication for __H__ umans __AN__ d __T__ hings.
 
+The language is ESOTERIC
+
 The programming language focuses on natural language processing (NLP) capabilities and is designed to run on small embedded systems without the need for large servers. This means that the language will be optimized for running on resource-constrained environments, such as IoT devices or other small embedded systems with limited processing power, memory, and storage.
 
 The goal of the programming language is to enable NLP capabilities on these small embedded systems, allowing them to process and understand human language without relying on external servers or cloud-based services. This would enable local, on-device NLP processing, which can be advantageous in scenarios where internet connectivity may be limited or where data privacy and security are of concern.
