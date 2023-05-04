@@ -7,3 +7,5 @@ I have decided to use flex(Fast Lexical Analyzer Generator) to build a lexical a
 25/4/2023
 set up the flex environment on my machine, and learning flex syntax!
 
+4/5/2023
+switched dev environment to linux to smoothly run flex
